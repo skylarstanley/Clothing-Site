@@ -1,0 +1,88 @@
+
+/* Navigation bar start */
+nav {
+    padding: 10px;
+    /*border-bottom: black 2px solid;*/
+
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    margin-left:150px;
+    margin-right:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+nav a:hover {
+    color: #ffdb58;
+    opacity: .9;
+    text-decoration: none;
+}
+/* Navigation bar end */
+
+/*GOOGLE MAPS */
+#map {
+    width: 800px;
+    height: 450px;
+    position: inherit;
+    text-align:center;
+    margin:0 auto;
+    display:inline-block;
+    border: black 1px solid;
+}
+
+body {
+    color:black;
+    text-align: center;
+}
+
+
+/*HEADER color change*/
+.HQ {
+    color: #ffdb58;
+}
+
+
+/*FOOTER Social media start*/
+.foot {
+    color: white;
+    Background: black;
+    height: 200px;
+    margin: 75px 0 0 0;
+}
+.foot_2 {
+    margin: 50px 0 0 0;
+}
+.twitter,
+.facebook,
+.insta
+{
+    width: 50px;
+    transition:.5s;
+    margin: 50px 10px 0 10px;
+    opacity: .5;
+    color: white;
+    text-decoration: none;
+}
+
+.twitter:hover,
+.facebook:hover,
+.insta:hover
+{
+    transform: scale(1.1);
+    opacity: 1;
+    text-decoration: none;
+
+}
+/*FOOTER Social media end*/
+
+
+
+
+

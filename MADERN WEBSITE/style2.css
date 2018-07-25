@@ -1,0 +1,150 @@
+/* Navigation bar start */
+nav {
+    padding: 10px;
+   /* border-bottom: black 2px solid;*/
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    margin-left:150px;
+    margin-right:150px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+nav a:hover {
+    color: #ffdb58;
+    opacity: .9;
+    text-decoration: none;
+}
+/* Navigation bar end  */
+
+/*Body Content start*/
+.title_1 {
+    color: #ffdb58;
+}
+
+
+.top_why,
+.bottom_when {
+    background: linear-gradient(black 60%, white 40%);
+    border: white 1px solid;
+    border-radius: 200px 0 200px 0;
+    margin: 40px 0 0 0;
+
+
+}
+.bottom_what {
+    background: linear-gradient(black 60%, white 40%);
+    border: white 1px solid;
+    border-radius: 0 200px 0 200px;
+    margin: 40px 0 0 0;
+}
+
+/*PARAGRAPHS start*/
+.para1,
+.para3 {
+    color: black;
+    text-align: left;
+    padding: 10px 0 10px 40px;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+    opacity: .5;
+
+}
+.para2{
+    color: black;
+    text-align: right;
+    padding: 10px 40px 10px 0;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+    opacity: .5;
+
+}
+
+.para1:hover,
+.para2:hover,
+.para3:hover {
+    color: black;
+    opacity: 1;
+
+}
+/*PARAGRAPHS end*/
+
+.header_1,
+.header_3 {
+    color: dimgrey;
+    text-align: left;
+    font-size: 500%;
+    margin: 100px 5px 30px 40px;
+}
+.header_2{
+    color: dimgrey;
+    text-align: right;
+    font-size: 500%;
+    margin: 100px 40px 30px 5px;
+
+   }
+
+  .image_1,
+  .image_3 {
+    width: 325px;
+    height: 425px;
+      float: right;
+      position: inherit;
+      margin-right: 300px;
+      margin-top: 41px;
+}
+
+.image_2 {
+    width: 350px;
+    height: 425px;
+    float: left;
+    position: inherit;
+    margin-left: 300px;
+    margin-top: 41px;
+}
+/*Body Content end*/
+
+/*Footer with social media links start*/
+.foot {
+    color: white;
+    Background: black;
+    height: 200px;
+    text-align: center;
+}
+.foot_2 {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.twitter,
+.facebook,
+.insta
+{
+    width: 50px;
+    height: 50px;
+    transition:.5s;
+    margin: 50px 10px 0 10px;
+    opacity: .5;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.twitter:hover,
+.facebook:hover,
+.insta:hover
+{
+    transform: scale(1.1);
+    opacity: 1;
+    text-decoration: none;
+}
+
+/*Footer with social media links end*/

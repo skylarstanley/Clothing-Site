@@ -1,0 +1,129 @@
+
+/* Navigation bar start */
+nav {
+    padding: 10px;
+   /*border-bottom: black 2px solid;*/
+
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    margin-left:150px;
+    margin-right:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s;
+
+  }
+
+nav a:hover {
+    color: #ffdb58;
+    opacity: .9;
+    text-decoration: none;
+}
+/* Navigation bar end */
+
+/*BODY content START*/
+body{
+    color:black;
+    background: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300px;
+    position: center;
+
+}
+.title_1 {
+    color: #ffdb58;
+}
+.foot {
+    color: white;
+    Background: black;
+    height: 200px;
+
+}
+.foot_2 {
+    margin: 50px 0 0 0;
+}
+.genders{
+    display: flex;
+    justify-content: center;
+}
+.genders a{
+    width: 330px;
+    height: 500px;
+    transition:1.5s;
+    margin: 50px 50px 200px 50px;
+   }
+.genders a:hover{
+    transform: scale(1.1);
+}
+/*IMAGE CONTENT START */
+.image1{
+    background: white url('http://wardrobelooks.com/wp-content/uploads/2014/04/Womens-Urban-Clothing-for-Winter-2014-2015-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.image2{
+    background: white url('http://thebestfashionblog.com/wp-content/uploads/2015/02/MATIERE-Spring-Summer-2015-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+ .image_1:hover
+{
+    transform: scale(.9);
+
+}
+
+.image_2
+{
+    width: 425px;
+    height: 500px;
+    transition:1.5s;
+    margin: 50px 10px 200px 10px;
+}
+
+.image_2:hover
+{
+    transform: scale(.9);
+}
+
+/*IMAGE CONTENT end  */
+/*body content end */
+
+/*FOOTER SOCIAL MEDIA START*/
+.twitter,
+.facebook,
+.insta
+{
+    width: 50px;
+    height: 50px;
+    transition:.5s;
+    margin: 50px 10px 0 10px;
+    opacity: .5;
+    color: white;
+    text-decoration: none;
+}
+
+.twitter:hover,
+.facebook:hover,
+.insta:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+    /*FOOTER SOCIAL MEDIA end*/

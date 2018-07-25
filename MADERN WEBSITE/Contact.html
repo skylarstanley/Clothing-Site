@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>M ä d ə r n | Contact</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="style3.css" rel="stylesheet">
+
+</head>
+<body>
+<header class="container-fluid">
+    <nav>
+        <a href="Main.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="#">Shop</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+</header>
+<h1 class="display-1">H<span class="HQ">Q</span></h1>
+
+    <div id="map"></div>
+
+<p>Email | <a href="mailto:skylarstanley14@yahoo.com">Skylarstanley14@yahoo.com</a></p>
+<p>Phone | 817-948-7336</p>
+
+<script>
+// Initialize and add the map
+function initMap() {
+// The location of Uluru
+var Roanoke = {lat: 33.004013, lng: -97.225848};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+document.getElementById('map'), {zoom: 4, center: Roanoke});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: Roanoke, map: map});
+}
+</script>
+
+<footer class="foot">
+    <a href="https://twitter.com/Skylarstanley1" target="_self">
+        <img class="twitter" src="http://www.jemome.com/cdn/2014/07/twitter-bird-transparent-white_2369907.png">
+    </a>
+    <a href="https://www.facebook.com/skylar.stanley1" target="_self">
+        <img class="facebook" src="http://webiconspng.com/wp-content/uploads/2017/09/Facebook-PNG-Image-38915.png">
+    </a>
+    <a href="https://www.instagram.com/skylar_stanley_/" target="_self">
+        <img class="insta" src="http://images.clipartpanda.com/search-png-white-instagram-logo-white-png.png">
+    </a>
+
+    <p  class="foot_2">&copy; 2018 M ä d ə r n, Clothing website</p>
+
+</footer>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAfwoNYd87oNK7zKoPWQZ9Rfg1AhnmO_U&callback=initMap">
+</script>
+</body>
+</html>
